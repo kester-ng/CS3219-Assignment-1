@@ -10,6 +10,7 @@ Docker + ngix server set-up
 4. Type `localhost` or `localhost:80` (same thing) to launch default route. You should see a webpage with `ASSIGNMENT 1 DEFAULT ROUTE`.
 5. Type `localhost/alternate` for the alternative route. You should see a webpage with `ASSIGNMENT 1 ALTERNATE ROUTE`.
 6. Nginx reverse_proxy uses port 80!
+7. The reverse proxy configurations is at `nginx.conf`. Please take a look!
 
 ## Closing the server and removing container
 
